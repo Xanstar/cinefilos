@@ -1,0 +1,984 @@
+
+body{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  
+}
+
+/*header*/
+
+.header{
+    background-color: #110E0E;
+    height: 80px;
+    width: 100%;
+    left: 0px;
+    
+}
+
+.cont{
+    align-items: normal;
+    display: flex;
+
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.secciones{
+    display: flex;
+    text-indent: 15;
+    margin-top: 22px;
+    margin-left: 60px;
+}
+
+.secciones p{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.secciones p strong img {
+    margin-left: 5px; /* Espacio entre el texto y la imagen */
+    width: 12px; /* Ancho de la imagen de la flecha */
+    height: auto; /* Altura automática según el ancho */
+  }
+.secciones p:hover{
+    color: #FD9800;
+}
+
+
+
+.buscador{
+    margin-left: 15px;
+    width: 185;
+    height: 30;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.perfil{
+    width: 126;
+    height: 32;
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+/*Slider*/
+
+.slider{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen1 img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain
+}
+
+.degrade{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    width: 100%;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.fechaytag{
+    display: flex;
+    align-items: center;
+}
+
+.etiqueta {
+    font-weight: 600;
+    background-color: #FD9800;
+    padding: 0px 18px 0px 18px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2px;
+    max-width: 4%;
+    margin-left: 20px;
+}
+
+.etiqueta p{
+    margin-top: 5;
+    margin-bottom: 5;
+    font-size: 11px;
+    font-family: "Raleway", sans-serif;
+}
+
+.fecha{
+    color: white;
+    font-weight: 0;
+    margin-bottom: 10px;
+    margin-left: 20;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+}
+
+.degrade .titulo, .degrade .subtitulo{
+    color: white;
+}
+
+.titulo{
+    font-weight: 600;
+    font-size: 40;
+    max-width: 580px;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+
+.subtitulo{
+    font-weight: 400;
+    font-size: 20;
+    max-width: 600px;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+
+/*objetivos*/
+
+.objetivos {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82)), url(imagenes/sub-buzz-6054-1481838000-2_jpg.jpg);
+    background-size: cover;
+    background-position: 0;
+    height: 456px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.conte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.conte .texto{
+    font-size: 26px;
+    margin-left: 80px;
+}
+.conte .objetivoslineas1{
+    margin-right: 80px;
+}
+
+.conte .text1{
+    color: white;
+    font-size: 16px;
+}
+.conte .porcentajes{
+    color: #FFFFFF;
+}
+
+.barra{
+    background-color: #818181;
+    width: 500;
+    height: 20;
+    margin-right: 9;
+}
+
+.barrarelleno1{
+    background-color: #FD9800;
+    width: 250;
+    height: 20;
+}
+.barrarelleno2{
+    background-color: #FD9800;
+    width: 350;
+    height: 20;
+}
+.barrarelleno3{
+    background-color: #FD9800;
+    width: 100;
+    height: 20;
+}
+
+.barrayporcentaje{
+    margin-top: -20;
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    color: white;
+    font-weight: 800;
+    font-size: 30;
+    max-width: 700;
+}
+
+.botoncrear{
+    color: white;
+    display: inline-block;
+    background-color: #FD9800;
+    border-radius: 4px;
+    width: 540px;
+    height: 51px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 18;
+}
+
+.botoncrear:hover{
+    background-color: #A76400;
+}
+
+/*top*/
+
+.top5{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding: 50 154 100 144;
+}
+
+.top5 h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.top5 p{
+    max-width: 1110px;
+    font-size: 24;
+    font-weight: 400;
+}
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+}
+
+.tag{
+    background-color: #FD9800;
+    border-radius: 5px;
+    margin-left: 395;
+    margin-top: 10;
+    margin-bottom: 313;
+    padding: 5 10 5 10;
+    font-weight: 600;
+    font-size: 13;
+}
+
+.imagen2{
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(imagenes/scorsese-s.jpeg);
+    background-size: cover;
+    width: 280;
+    height: 180;
+    display: flex;
+}
+
+.imagen3{
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(imagenes/ferrari.jpeg);
+    background-size: cover;
+    width: 280;
+    height: 180;
+    display: flex;
+}
+
+.imagen4{
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(imagenes/oppenheimer-cillian_webp.jpg);
+    background-size: cover;
+    width: 280;
+    height: 180;
+    display: flex;
+}
+
+.imagen5{
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(imagenes/scorsese-s.jpeg);
+    background-size: cover;
+    background-position: -60;
+    width: 280;
+    height: 180;
+    display: flex;
+}
+
+.imagen6{
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(imagenes/scorsese-s.jpeg);
+    background-size: cover;
+    width: 280;
+    height: 180;
+    display: flex;
+}
+
+.textos{
+    border-radius: 0px 0px 8px 8px;
+    background-color: #110E0E;
+    color: white;
+    width: 280;
+    height: 180;
+}
+
+.x{
+    padding: 0 13 20 20;
+}
+
+.imgaa{
+    width: 100%;
+    height: auto;
+    max-width: 14;
+}
+
+.textos p{
+    color: #FFA601;
+    font-size: 17;
+}
+
+.textos h3{
+    font-size: 18;
+    font-weight: 400;
+}
+
+.textos p1{
+    font-size: 12;
+    font-style: italic;
+    font-weight: 400;
+}
+/*opinion*/x
+
+.opinion{
+    margin-top: -16px;
+    background-color: black;
+    height: 953px;
+    width: 100%;
+    padding: 100 142 0 142;
+    
+}
+
+.blanco{
+    color: white;
+}
+
+.negro{
+    color: black;
+}
+
+.texto1 h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.texto1 p{
+    font-weight: 400;
+    font-size: 18;
+    margin-left:90px ;
+}
+
+.seccion1{
+    display: flex;
+    gap: 10px;
+}
+
+.sg{
+    border-radius: 8px;
+    background-size: cover;
+    width: 308;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left:90px ;
+}
+
+.sc{
+    border-radius: 8px;
+    background-size: cover;
+    width: 300;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.seccioneschicas{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.degradets{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.735) 100%, rgba(0, 0, 0, 0.735) 100%);
+}
+
+.ts{
+    color: white;
+    width: 319;
+    height: 77;
+    margin-left: 24.5px;
+    margin-right: 24.5px;
+    margin-bottom: 30;
+}
+
+.ts span{
+    background-color: #FFA601;
+    color: black;
+    padding: 10 5 10 5;
+    border-radius: 5px;
+    width: 86;
+    height: 20;
+    font-size: 9;
+}
+
+.ts p{
+    width: 319;
+    height: 42;
+    font-weight: 400;
+    font-size: 16;
+    max-width: 230;
+}
+
+/*recomendados*/
+
+.recomendados{
+    margin-top: -16px;
+    background-color: white;
+    height: 993px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+.contenedors{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.secciongrandeychica{
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+
+.seccionchicapor3{
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+
+.sgyc{
+    border-radius: 8px;
+    background-size: cover;
+    width: 270;
+    height: 428;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.scyg{
+    border-radius: 8px;
+    background-size: cover;
+    width: 270;
+    height: 242;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.scc{
+    border-radius: 8px;
+    background-size: cover;
+    width: 270;
+    height: 220;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sccc{
+    border-radius: 8px;
+    background-size: cover;
+    width: 270;
+    height: 213;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*mis articulos*/
+
+.misarticulos{
+    margin-top: -16px;
+    background-color: black;
+    height: 917px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+.articulos{
+    display: flex;
+    gap: 25px;
+}
+
+.tarjetamisarticulos{
+    width: 396px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagart{
+    background-image: url(imagenes/120-latido-por-minuto-trailer-1100x570_jpg.jpg);
+    background-size: cover;
+    background-position: -140;
+    border-radius: 8px 8px 0px 0px;
+    width: 396px;
+    height: 368px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagart span{
+    background-color: #FFA601;
+    color: black;
+    padding: 10 5 10 5;
+    border-radius: 5px;
+    margin: 10 10 0 0;
+    width: 86;
+    height: 20;
+    font-size: 13;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textoss{
+    width: 396px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.y{
+    padding: 10 10 10 30;
+}
+
+.y p{
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 294;
+}
+
+.abajo p1, .abajo p2{
+    font-size: 18;
+
+}
+
+.abajo{
+    display: flex;
+    gap: 240px;
+}
+
+.comm, .star, .compartir{
+    width: 16px ;
+    font-weight: 500;
+}
+
+/*tarjetas oscuras*/
+
+.misarticulos2{
+    margin-top: -16px;
+    background-color: black;
+    height: 917px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+.tarjetamisarticulos2{
+    width: 396px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagart2{
+    background-color: #2c2c2c;
+    background-size: cover;
+    background-position: -140;
+    border-radius: 8px 8px 0px 0px;
+    width: 396px;
+    height: 368px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagart2 span{
+    background-color: #242424;
+    color: rgba(0, 0, 0, 0);
+    padding: 10 5 10 5;
+    border-radius: 5px;
+    margin: 10 10 0 0;
+    width: 86;
+    height: 20;
+    font-size: 13;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.textoss2{
+    width: 396px;
+    height: 150px;
+    background-color: #1f1f1f;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.y2{
+    padding: 10 10 10 30;
+    color: #101010;
+}
+
+.y2 p{
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 294;
+}
+
+.abajo2 p1, .abajo2 p2{
+    font-size: 18;
+
+}
+
+.abajo2{
+    display: flex;
+    gap: 240px;
+}
+
+.comm, .star, .compartir{
+    width: 16px ;
+    font-weight: 500;
+}
+
+/*lo ultimo*/
+
+.loultimo{
+    margin-top: -16px;
+    background-color: rgb(255, 255, 255);
+    height: 953px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+/*lo mas leido*/
+
+.lomasleido{
+    margin-top: -16px;
+    background-color: black;
+    height: 953px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+/*entrevistas*/
+
+.entrevistas{
+    margin-top: -16px;
+    background-color: white;
+    height: 953px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+/*ultimos articulos*/
+
+.ultimosarticulos{
+    margin-top: -16px;
+    background-color: black;
+    height: 732px;
+    width: 100%;
+    padding: 100 142 0 142;
+}
+
+.finalseccion{
+    display: flex;
+    gap: 30px;
+}
+
+.tarjetafinal{
+    background-position: center;
+    width: 565;
+    height: 464;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.degradefinal{
+    align-items: center;
+    display: flex;
+    width: 565;
+    height: 174;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.735) 100%, rgba(0, 0, 0, 0.735) 100%);
+}
+.tag
+{
+    margin-left: 10px;
+    margin-bottom: 145;
+}
+
+.tagfinal{
+    background-color: #FD9800;
+    width: 86;
+    height: 23;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+}
+
+.tagfinal p{
+    font-size: 11;
+    
+}
+
+.texx{
+    color: white;
+    font-size: 26;
+    max-width: 445;
+    margin-left: 60;
+    
+}
+
+/*footerr*/
+
+.footer{
+    margin-top: -16px;
+    background-color: #101010;
+    height: 314px;
+    width: 100%;
+    display: flex;
+}
+
+.footerimg{
+    background-image: url(imagenes/dada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 314px;
+    width: 100%;
+}
+
+/*IMAGENES*/
+
+/*OPINION*/
+.sg1op{
+    background-image: url(imagenes/cabeza-federer-pasa-mucho-tiempo-documental-agachada-reflexion-tristeza_98-1140x570.png);
+    background-position: center;
+}
+.sc1op{
+    background-image: url(imagenes/exorcista-creyentes-1140x570.jpeg);
+    background-position: center;
+}
+.sc2op{
+    background-image: url(imagenes/the-bear-2-6-1140x570.jpeg);
+    background-position: center;
+}
+.sc3op{
+    background-image: url(imagenes/ferrari.jpeg);
+    background-position: center;
+}
+.sc4op{
+    background-image: url(imagenes/the-killer-1140x570.jpeg);
+    background-position: center;
+}
+
+/*RECOMENDADOS*/
+.sg1rc{
+    background-image: url(imagenes/anya-1140x570.jpeg);
+    background-position: center;
+}
+.sg2rc{
+    background-image: url(imagenes/la-tumba-de-las-luciernagas-900x570.jpg);
+    background-position: center;
+}
+.sg3rc{
+    background-image: url(imagenes/the-bear-2-6-1140x570.jpeg);
+    background-position: center;
+}
+.sc1rc{
+    background-image: url(imagenes/la-mesias-1140x570.jpeg);
+    background-position: center;
+}
+.sc2rc{
+    background-image: url(imagenes/buzz-dos-1140x570.jpeg);
+    background-position: center;
+}
+.sc3rc{
+    background-image: url(imagenes/memoria-infinita.jpeg);
+    background-position: center;
+}
+.scc1rc{
+    background-image: url(imagenes/barbarian-georgina-campbell-1667074787-1140x570.jpg);
+    background-position: center;
+}
+.scc2rc{
+    background-image: url(imagenes/the-fabelmans-spielberg-1140x570.jpeg);
+    background-position: center;
+}
+.sccc1rc{
+    background-image: url(imagenes/elena-sabe.jpeg);
+    background-position: center;
+}
+
+/*LO ULTIMO*/
+.sg1lu{
+    background-image: url(imagenes/antony-starr-homelander-the-boys-1140x570.jpg);
+    background-position: center;
+}
+.sc1lu{
+    background-image: url(imagenes/cabeza-federer-pasa-mucho-tiempo-documental-agachada-reflexion-tristeza_98-1140x570.png);
+    background-position: center;
+}
+.sc2lu{
+    background-image: url(imagenes/martin-scorsese-tik-tok-mejor-pelicula-1140x570.jpg);
+    background-position: center;
+}
+.sc3lu{
+    background-image: url(imagenes/xavier-dolan-1140x570.jpg);
+    background-position: center;
+}
+.sc4lu{
+    background-image: url(imagenes/bebe-reno-1140x570.jpg);
+    background-position: center;
+}
+
+/*LO MAS LEIDO*/
+.sg1lm{
+    background-image: url(imagenes/A/Perfectos_desconocidos-1140x570.jpg);
+    background-position: center;
+}
+.sg2lm{
+    background-image: url(imagenes/A/godzilla.jpeg);
+    background-position: center;
+}
+.sg3lm{
+    background-image: url(imagenes/A/WhatsApp-Image-2022-03-02-at-22.28.48-1140x570.jpeg);
+    background-position: center;
+}
+.sc1lm{
+    background-image: url(imagenes/A/friends-portada.jpg);
+    background-position: center;
+}
+.sc2lm{
+    background-image: url(imagenes/A/anya-taylor-joy-1140x570.jpg);
+    background-position: center;
+}
+.sc3lm{
+    background-image: url(imagenes/A/VOH6YW334NCSVCCEQDXRJRVJXY-1140x570.jpg);
+    background-position: center;
+}
+.scc1lm{
+    background-image: url(imagenes/A/first-furiosa-trailer-reveals-anya-taylor-joy-a-young-immort_x8d7.1200-1140x570.png);
+    background-position: center;
+}
+.scc2lm{
+    background-image: url(imagenes/A/murio-el-actor-donald-sutherland-a-los-88-UUAE5ENRTBHF5LNASB4DUKVJZ4_jpg.jpg);
+    background-position: center;
+}
+.sccc1lm{
+    background-image: url(imagenes/A/peaky-blinders-cillian-murphy-1648030077-1140x570.jpg);
+    background-position: center;
+}
+
+/*ENTREVISTAS*/
+.sg1e{
+    background-image: url(imagenes/memoria-infinita.jpeg);
+    background-position: center;
+}
+.sg2e{
+    background-image: url(imagenes/anya-1140x570.jpeg);
+    background-position: center;
+}
+.sg3e{
+    background-image: url(imagenes/A/Captura-de-pantalla-2023-11-06-a-las-21.54.09.png);
+    background-position: center;
+}
+.sc1e{
+    background-image: url(imagenes/A/l-intro-1699979663-1140x570.jpg);
+    background-position: center;
+}
+.sc2e{
+    background-image: url(imagenes/con-todos-menos-contigo-.jpeg);
+    background-position: center;
+}
+.sc3e{
+    background-image: url(imagenes/A/cozarinsky-cinefilos.jpg);
+    background-position: center;
+}
+.scc1e{
+    background-image: url(imagenes/A/Maite-Alberdi-scaled-1-e1605189362678-1140x570.jpg);
+    background-position: center;
+}
+.scc2e{
+    background-image: url(imagenes/A/fallen-leaves-1140x570.jpeg);
+    background-position: center;
+}
+.sccc1e{
+    background-image: url(imagenes/A/wonka2.cinefilos-1140x570.jpg);
+    background-position: center;
+}
+
+/*Ultima seccion*/
+
+.sc1ul{
+    background-image: url(imagenes/3MQQ65FUHFH2XOXYBA4Y3XZHIE-1140x570.jpg);
+    background-position: center;
+}
+
+.sc2ul{
+    background-image: url(imagenes/A/intensamente3.cinefilos-1140x570.jpg);
+    background-position: center;
+}
+
+.sc3ul{
+    background-image: url(imagenes/A/martha-bebe-reno-1-1140x570.jpg);
+    background-position: center;
+}
+
+.sc4ul{
+    background-image: url();
+    background-position: center;
+}
